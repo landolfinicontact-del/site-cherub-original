@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
       {/* Abstract Background Elements */}
-      <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-[#cb5600] rounded-full blur-[120px] opacity-20 animate-pulse" />
+     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-[#cb5600] rounded-full blur-[120px] opacity-20 animate-pulse" />
       <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-orange-900 rounded-full blur-[100px] opacity-10" />
       
       {/* Grid Pattern Overlay */}
